@@ -1,0 +1,13 @@
+<h3>Recommendations</h3>
+<div class="row">    
+    <div class="col-md-12 col-lg-8 col-12 mr-5">
+        <div class="swiper-container" *ngIf="recommendations.length > 0">
+            <div class="swiper-wrapper">
+                <div *ngFor="let recomendation of recommendations" class="swiper-slide">
+                    <img class="img-thumbnail" [src]="recomendation.poster_path | poster" [alt]="recomendation.original_title">
+                    <p>{{ recomendation.title }} <br> {{ recomendation.overview }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

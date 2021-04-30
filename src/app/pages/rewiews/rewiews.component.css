@@ -1,0 +1,33 @@
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.review-avatar {
+    margin-left: 15px;
+    width: 70px;
+}
+
+.review-user {
+    color: #000;
+    display: block;
+    margin: 10px 0 5px 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.rewiew-user-created {
+    margin-left: 30px;
+    color: gray;
+}
+
+.rewiew-user-created span {
+    color: blue;
+}
+p {
+    font-size: x-large;
+}
+
+.img-movie {
+    width: 95%;
+}
